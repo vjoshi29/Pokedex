@@ -8,16 +8,29 @@ It is designed to help users explore and learn about the various Pokémon from t
 ____________________________________________________________________________________________________
 **Desktop View**
 ____________________________________________________________________________________________________
-![Screenshot (75)](https://github.com/user-attachments/assets/22fdfc60-58cf-4d85-a98a-6a820dde5308)
+![Screenshot (92)](https://github.com/user-attachments/assets/c8a8f9ea-0816-4a55-bf5b-5e324d81f4a8)
+
 ____________________________________________________________________________________________________
-![Screenshot (79)](https://github.com/user-attachments/assets/f993f026-4bcc-42ce-9cef-e0ff237e0827)
+![Screenshot (93)](https://github.com/user-attachments/assets/28589813-3e9d-4354-9211-7ea98f47cef3)
+
+____________________________________________________________________________________________________
+![Screenshot (94)](https://github.com/user-attachments/assets/187cf85d-5600-444c-9a95-3bf9b2e0b76c)
+
 ____________________________________________________________________________________________________
 
 **Mobile View**
 ____________________________________________________________________________________________________
-![Screenshot (73)](https://github.com/user-attachments/assets/56e113d7-3680-4469-bc4c-7ec681888798)
+![Screenshot (105)](https://github.com/user-attachments/assets/c70ebe7d-d78f-45ec-be27-48b545cb1cbc)
+
 ____________________________________________________________________________________________________
-![Screenshot (80)](https://github.com/user-attachments/assets/e1d2bb98-d785-448c-8d39-7675d518a33a)
+![Screenshot (106)](https://github.com/user-attachments/assets/a9859093-5f2c-48fc-959a-51733f762a72)
+
+____________________________________________________________________________________________________
+![Screenshot (107)](https://github.com/user-attachments/assets/cc46b654-6775-4082-910e-3fcf844b9c02)
+
+____________________________________________________________________________________________________
+![Screenshot (108)](https://github.com/user-attachments/assets/3d0e6748-86a2-4f25-89d7-92c38a60bf0d)
+
 ____________________________________________________________________________________________________
 
 
