@@ -1,30 +1,90 @@
-.pokemon{
-   padding: 4px;
-    margin-top: 2rem;
-    flex-basis:20%;
-    height: 200px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border:1px solid black;
+body {
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
 }
- .pokemon-image{
-    height:150px;
-    max-height: 80%;
-    max-width:100%;
-    margin-top: 1rem;
-    
-    
-    
- }
- .pokemon-name{
-    font-size: larger;
-    letter-spacing: 0.3rem;
-    text-align: center;
-   
- }
- .pokemon:hover{
-    
-    background-color: beige;
- }
+
+.pokemon-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: start;
+  margin-top: 3rem;
+}
+
+.pokemon {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  overflow: hidden; /* Ensures the border radius works with images */
+}
+
+.pokemon:hover {
+  transform: translateY(-5px); /* Lift effect */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.pokemon-image {
+
+  height: 160px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  border-radius: 8px; /* subtle rounding, not circular */
+  background-color: #d4d0d0;
+  padding: 10px;
+}
+
+.pokemon-name {
+   font-size: 1.3rem;
+   font-weight: 600;
+   color: #1e88e5;
+   margin-bottom: 10px;
+   text-transform: capitalize;
+   text-decoration: none;
+   text-align: center; /* Center the text */
+   display: block;
+   width: 100%;
+}
+
+.pokemon-type {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 15px;
+}
+
+.pokemon-name:hover {
+  color: #42a5f5; /* Color change on hover */
+}
+
+.pokemon-type span {
+  display: inline-block;
+  background-color: #42a5f5;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin: 0 5px;
+  text-transform: capitalize;
+}
+
+/* Add responsive adjustments */
+@media (max-width: 768px) {
+  .pokemon-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Stack the cards on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .pokemon-container {
+    grid-template-columns: 1fr; /* Full width on very small screens */
+  }
+}
+
+ 

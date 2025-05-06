@@ -1,59 +1,122 @@
-.pokemon-details-name{
-    font-size:xx-large;
-    color: black;
-    margin-top:1rem
-   
-}
-
-.pokemon-details-name > span{
-letter-spacing: 0.3rem;
-font-weight: bold;
-background-color: rgb(170, 233, 212);
-padding:3px 4px;
-}
-#hw{
-      font-size: x-large;
-      background-color: rgb(219, 104, 127);
-}
-.pokemon-details-types{
-    display:flex;
-    margin-top:2rem;
-    font-size:larger;
-    gap:3rem;
-}
-.pokemon-details-types {
-
-   background-color: darkgreen;
-   color: #f0f8ff;
-   margin:2vh;
-   padding:3px 4px ;
-}
-.type{
-    font-size:large;
-    width:80vw;
-    
-    background-color:rgb(221, 214, 212);
-    padding:5px;
-    border-radius: 10px;
-    border:1px solid black;
-    
-
-}
-
-.type h3{
-    color: #f8f2f2;
-    background-color: rgb(20, 5, 90);
-    padding: 2px 3px;
-}
-.pokemon-details-image{
-    margin:2rem;
-    max-height:150px;
-    padding:5px 5px;
-    border: 4px double black;
-}
-.pokemon-details-wrapper{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-
+.pokemon-details-wrapper {
+    max-width: 450px;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 20px;
+    background: linear-gradient(to bottom right, #ffffff, #f0f4ff);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .pokemon-details-image {
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    background-color: #e3f2fd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .pokemon-details-image:hover {
+    transform: scale(1.05);
+  }
+  
+  
+    #name{
+        font-size: 2rem;
+        font-weight: 800;
+        color: #ffffff;
+        background: linear-gradient(90deg, #ff6ec4, #7873f5);
+        padding: 0.2rem 1rem;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 1rem;
+        text-transform: capitalize;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      }
+      #name:hover {
+        transform: scale(1.05);
+      }
+      
+      #hw{
+        font-size: 1.2rem;
+        font-weight: 700;
+        background: linear-gradient(90deg, #ffbde5, #afadf7);
+      }
+  
+  .pokemon-physical {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 0.4rem 0;
+  }
+  
+ 
+  
+  .type {
+    margin-top: 2.5rem;
+    text-align: left;
+  }
+  
+  .type h3 {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .type ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .type li {
+    background: #e7d1e4;
+    margin: 5px 10px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-align: center;
+    transition: background-color 0.2s ease;
+  }
+  
+  .type li:hover {
+    background-color: #b2ebf2;
+  }
+  
+  button {
+    margin-top: 1.5rem;
+    padding: 0.6rem 1.4rem;
+    background-color: hwb(350 1% 75%);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #5a0f2d;
+  }
+  
+  /* Mobile tweaks */
+  @media (max-width: 480px) {
+    .pokemon-details-image {
+      width: 160px;
+      height: 160px;
+    }
+  
+    .pokemon-details-name {
+      font-size: 1.5rem;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
